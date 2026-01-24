@@ -1,0 +1,8 @@
+@import "../abstracts/variables";
+
+button{
+    padding: 1rem;
+    display: inline-block;
+    color: $accent;
+    background-color: $secondary;
+}

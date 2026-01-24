@@ -1,0 +1,57 @@
+@import '../abstracts/variables';
+
+ section{
+    &.about{
+        display: flex;
+        gap: 1rem;
+        background-color: $accent;
+        color: $neutral;
+
+        & .about-row{
+            display: flex;
+        }
+
+        & .about-column2{
+            text-align: center;
+            align-items: center;
+            padding: 2rem;
+
+            & span{
+                color: $neutral2;
+            }
+        }
+
+    }
+    
+    }
+
+    /*section--menu*/
+
+   .menu {
+  padding: 2rem;
+
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
+
+  .menu-grid > div {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.5rem;
+  }
+}
+
+/*location -section*/
+
+.about{
+    & .about-row{
+        
+    }
+}
